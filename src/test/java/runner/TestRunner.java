@@ -7,7 +7,10 @@ import org.junit.runner.RunWith;
 
 /**
  * Created by Karthik on 10/26/2016.
+* it's modifierd by mani
  */
+
+
 
 //@RunWith(Cucumber.class)
 @CucumberOptions(features = {"src/test/java/features"} , format = {"json:target/cucumber.json","html:target/site/cucumber-pretty"},
