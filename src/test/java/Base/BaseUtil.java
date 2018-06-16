@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 /**
  * This is a comented line
  * One more line added with coment
+ * Hi and Hello
  */
 public class BaseUtil {
 
