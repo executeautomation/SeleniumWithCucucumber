@@ -1,3 +1,4 @@
+@Login
 Feature: LoginFeature
   This feature deals with the login functionality of the application
 
