@@ -1,12 +1,11 @@
 package runner;
 
 import cucumber.api.CucumberOptions;
-import cucumber.api.junit.Cucumber;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
-import org.junit.runner.RunWith;
+
 
 /**
- * Created by Karthik on 10/26/2016.
+ * Created by Karthik on 31/01/2019.
  */
 
 //@RunWith(Cucumber.class)

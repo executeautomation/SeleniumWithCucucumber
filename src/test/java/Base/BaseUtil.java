@@ -1,12 +1,23 @@
 package Base;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
 import org.openqa.selenium.WebDriver;
 
 /**
- * Created by Karthik on 10/21/2016.
+ * Created by Karthik on 31/01/2019.
  */
+
 public class BaseUtil {
 
-    public WebDriver Driver;
+    public static WebDriver Driver;
+
+    public ExtentReports extent;
+
+    public static ExtentTest scenarioDef;
+
+    public static ExtentTest features;
+
+    public static String reportLocation = "/Users/karthikkk/report/";
 
 }

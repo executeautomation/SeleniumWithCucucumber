@@ -6,11 +6,11 @@
         "before": [
           {
             "result": {
-              "duration": 9656346811,
+              "duration": 1662202247,
               "status": "passed"
             },
             "match": {
-              "location": "Hook.InitializeTest()"
+              "location": "Hook.InitializeTest(Scenario)"
             }
           }
         ],
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 156094,
+              "duration": 135030,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2440320911,
+              "duration": 1002367352,
               "status": "passed"
             },
             "line": 5,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 1017561176,
+              "duration": 266051293,
               "status": "passed"
             },
             "line": 6,
@@ -74,7 +74,7 @@
           },
           {
             "result": {
-              "duration": 636928762,
+              "duration": 467899967,
               "status": "passed"
             },
             "line": 9,
@@ -86,7 +86,7 @@
           },
           {
             "result": {
-              "duration": 85711658,
+              "duration": 32195606,
               "status": "passed"
             },
             "line": 10,
@@ -102,11 +102,11 @@
         "before": [
           {
             "result": {
-              "duration": 8759250579,
+              "duration": 1052275647,
               "status": "passed"
             },
             "match": {
-              "location": "Hook.InitializeTest()"
+              "location": "Hook.InitializeTest(Scenario)"
             }
           }
         ],
@@ -117,7 +117,7 @@
         "after": [
           {
             "result": {
-              "duration": 141126,
+              "duration": 100866,
               "status": "passed"
             },
             "match": {
@@ -130,7 +130,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2067637298,
+              "duration": 828470741,
               "status": "passed"
             },
             "line": 13,
@@ -142,7 +142,7 @@
           },
           {
             "result": {
-              "duration": 1026598356,
+              "duration": 170678348,
               "status": "passed"
             },
             "line": 14,
@@ -170,7 +170,7 @@
           },
           {
             "result": {
-              "duration": 566324828,
+              "duration": 432999897,
               "status": "passed"
             },
             "line": 17,
@@ -182,8 +182,8 @@
           },
           {
             "result": {
-              "duration": 198883824,
-              "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: {\"method\":\"id\",\"selector\":\"sdfgdsfsd\"}\nCommand duration or timeout: 188 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.0.1\u0027, revision: \u00271969d75\u0027, time: \u00272016-10-18 09:49:13 -0700\u0027\nSystem info: host: \u0027DESKTOP-6H7284L\u0027, ip: \u002710.0.75.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_77\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{applicationCacheEnabled\u003dtrue, rotatable\u003dfalse, handlesAlerts\u003dtrue, databaseEnabled\u003dtrue, version\u003d47.0.1, platform\u003dWINDOWS, nativeEvents\u003dfalse, acceptSslCerts\u003dtrue, webStorageEnabled\u003dtrue, locationContextEnabled\u003dtrue, browserName\u003dfirefox, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: 2a4d2ff9-76b7-4c52-b705-9689b74cda51\n*** Element info: {Using\u003did, value\u003dsdfgdsfsd}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:218)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)\r\n\tat steps.LoginStep.iShouldSeeTheUserformPageWrongly(LoginStep.java:71)\r\n\tat ✽.Then I should see the userform page wrongly(Login.feature:18)\r\nCaused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {\"method\":\"id\",\"selector\":\"sdfgdsfsd\"}\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.0.1\u0027, revision: \u00271969d75\u0027, time: \u00272016-10-18 09:49:13 -0700\u0027\nSystem info: host: \u0027DESKTOP-6H7284L\u0027, ip: \u002710.0.75.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_77\u0027\nDriver info: driver.version: unknown\r\n\tat \u003canonymous class\u003e.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/Karthik/AppData/Local/Temp/anonymous4377442462210879300webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:11187)\r\n\tat \u003canonymous class\u003e.FirefoxDriver.prototype.findElement(file:///C:/Users/Karthik/AppData/Local/Temp/anonymous4377442462210879300webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:11196)\r\n\tat \u003canonymous class\u003e.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/Karthik/AppData/Local/Temp/anonymous4377442462210879300webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12705)\r\n\tat \u003canonymous class\u003e.DelayedCommand.prototype.executeInternal_(file:///C:/Users/Karthik/AppData/Local/Temp/anonymous4377442462210879300webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12710)\r\n\tat \u003canonymous class\u003e.DelayedCommand.prototype.execute/\u003c(file:///C:/Users/Karthik/AppData/Local/Temp/anonymous4377442462210879300webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12652)\r\n",
+              "duration": 28982429,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"id\",\"selector\":\"sdfgdsfsd\"}\n  (Session info: chrome\u003d71.0.3578.98)\n  (Driver info: chromedriver\u003d2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform\u003dMac OS X 10.14.2 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027karthiks-MBP\u0027, ip: \u0027fe80:0:0:0:1c3e:e037:30ab:d4d8%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.2\u0027, java.version: \u002710.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/qc/v5bq615178s...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}\nSession ID: e180d3a2d7f5ae415632c954dfd15b0d\n*** Element info: {Using\u003did, value\u003dsdfgdsfsd}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat steps.LoginStep.iShouldSeeTheUserformPageWrongly(LoginStep.java:78)\n\tat ✽.Then I should see the userform page wrongly(Login.feature:18)\n",
               "status": "failed"
             },
             "line": 18,
