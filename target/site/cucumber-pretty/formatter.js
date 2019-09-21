@@ -78,7 +78,7 @@ CucumberHTML.DOMFormatter = function(rootNode) {
 
   this.result = function(result) {
     currentStep.addClass(result.status);
-    if (result.status == 'failed') {
+    if (result.error_message != '') {
       populateStepError(currentStep, result.error_message);
     }
     currentElement.addClass(result.status);
@@ -93,39 +93,68 @@ CucumberHTML.DOMFormatter = function(rootNode) {
     }
   };
 
-  this.embedding = function(mimeType, data) {
-    if (mimeType.match(/^image\//)) 
-    {
-      currentStep.append('<img src="' + data + '">');
+  this.embedding = function(mimeType, data, name) {
+    var nameHtml;
+    if (!name) {
+      nameHtml = "";
+    } else {
+      nameHtml = "<h4>" + name + "</h4>";
     }
-    else if (mimeType.match(/^video\//)) 
-    {
-      currentStep.append('<video src="' + data + '" type="' + mimeType + '" autobuffer controls>Your browser doesn\'t support video.</video>');
+    if (currentStepIndex == 1) {
+      this.dummyStep();
     }
-    else if (mimeType.match(/^text\//)) 
+    if (mimeType.match(/^image\//))
     {
-      this.write(data);
+      currentStep.append(nameHtml + '<img src="' + data + '">');
+    }
+    else if (mimeType.match(/^video\//))
+    {
+      currentStep.append(nameHtml + '<video src="' + data + '" type="' + mimeType + '" autobuffer controls>Your browser doesn\'t support video.</video>');
+    }
+    else if (mimeType.match(/^text\//))
+    {
+      this.write(nameHtml + data);
     }
   };
 
   this.write = function(text) {
+    if (currentStepIndex == 1) {
+      this.dummyStep();
+    }
     currentStep.append('<pre class="embedded-text">' + text + '</pre>');
   };
 
   this.before = function(before) {
-    if(before.status != 'passed') {
-      currentElement = featureElement({keyword: 'Before', name: '', description: ''}, 'before');
-      currentStepIndex = 1;
-      populateStepError($('details', currentElement), before.error_message);
-    }
+    this.handleHookResult(before);
   };
 
   this.after = function(after) {
-    if(after.status != 'passed') {
-      currentElement = featureElement({keyword: 'After', name: '', description: ''}, 'after');
-      currentStepIndex++;
-      populateStepError($('details', currentElement), after.error_message);
+    this.handleHookResult(after);
+  };
+
+  this.beforestep = function(beforestep) {
+    this.handleHookResult(beforestep);
+  };
+
+  this.afterstep = function(afterstep) {
+    this.handleHookResult(afterstep);
+  };
+
+  this.handleHookResult = function(hook) {
+      if (hook.status != 'passed' && hook.error_message != '') {
+      this.dummyStep();
+      currentStep.addClass(hook.status);
+      currentElement.addClass(hook.status);
+      populateStepError(currentStep, hook.error_message);
     }
+  };
+
+  this.dummyStep = function() {
+    var stepElement = $('.step', $templates).clone();
+    stepElement.appendTo(currentSteps);
+    populate(stepElement, {keyword: '', name: ''}, 'step');
+    currentStep = currentSteps.find('li:nth-child(' + currentStepIndex + ')');
+    currentStepIndex++;
   };
 
   function featureElement(statement, itemtype) {
@@ -195,7 +224,7 @@ CucumberHTML.templates = '<div>\
   <ol class="steps"></ol>\
 \
   <ol>\
-    <li class="step"><span class="keyword" itemprop="keyword">Keyword</span><span class="name" itemprop="name">Name</span></li>\
+    <li class="step"><div class="header"></div><span class="keyword" itemprop="keyword">Keyword</span><span class="name" itemprop="name">Name</span></li>\
   </ol>\
 \
   <pre class="doc_string"></pre>\

@@ -9,6 +9,7 @@
 .cucumber-report .description {
   font-style: italic;
   margin-left: 20px;
+  white-space: pre;
 }
 
 .cucumber-report details > section {
@@ -80,8 +81,8 @@
 }
 
 .cucumber-report .comment {
-  margin 0;
-  padding 0;
+  margin: 0;
+  padding: 0;
 }
 
 .cucumber-report .error {
