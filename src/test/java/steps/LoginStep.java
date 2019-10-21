@@ -3,7 +3,6 @@ package steps;
 import Base.BaseUtil;
 import com.aventstack.extentreports.GherkinKeyword;
 
-import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -11,8 +10,11 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import pages.LoginPage;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
- * Created by Karthik on 21/09/2019.
+ * Created by Karthik on 31/01/2019.
  */
 public class LoginStep extends BaseUtil{
 
@@ -48,20 +50,21 @@ public class LoginStep extends BaseUtil{
 
 
     @And("^I enter the following for Login$")
-    public void iEnterTheFollowingForLogin(DataTable table) throws Throwable {
+    public void iEnterTheFollowingForLogin(List<User> table) throws Throwable {
         scenarioDef.createNode(new GherkinKeyword("And"), "I entere the following for login");
         //Create an ArrayList
         //List<User> users =  new ArrayList<User>();
         //Store all the users
-        var users = table.asList(String.class);
+        //List<User> users = table.asList(User.class);
 
         LoginPage page = new LoginPage(base.Driver);
 
-//        for (User user: users){
-//            page.Login(user.username, user.password);
-//        }
+        for (User user: table){
+            page.Login(user.username, user.password);
+        }
 
-        page.Login(users.get(2).toString(), users.get(3).toString());
+        //page.Login(users.get(2), users.get(3));
+
     }
 
     @And("^I enter ([^\"]*) and ([^\"]*)$")
