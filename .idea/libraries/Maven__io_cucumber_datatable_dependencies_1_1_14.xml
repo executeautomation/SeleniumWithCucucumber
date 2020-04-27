@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: io.cucumber:datatable-dependencies:1.1.14">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/cucumber/datatable-dependencies/1.1.14/datatable-dependencies-1.1.14.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/io/cucumber/datatable-dependencies/1.1.14/datatable-dependencies-1.1.14-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/cucumber/datatable-dependencies/1.1.14/datatable-dependencies-1.1.14-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
