@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-05-28T04:41:13.481Z",
+        "start_timestamp": "2020-05-28T05:02:43.498Z",
         "before": [
           {
             "result": {
-              "duration": 3829828600,
+              "duration": 4938902300,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 605747300,
+              "duration": 682174900,
               "status": "passed"
             },
             "match": {
@@ -35,13 +35,13 @@
         "steps": [
           {
             "result": {
-              "duration": 12362835300,
+              "duration": 2023726900,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 4004600,
+                  "duration": 3979200,
                   "status": "passed"
                 },
                 "match": {
@@ -68,12 +68,13 @@
           },
           {
             "result": {
-              "duration": 18439563400,
+              "duration": 231516800,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 622800,
                   "status": "passed"
                 },
                 "match": {
@@ -114,7 +115,7 @@
           },
           {
             "result": {
-              "duration": 388086000,
+              "duration": 256267600,
               "status": "passed"
             },
             "before": [
@@ -146,7 +147,7 @@
           },
           {
             "result": {
-              "duration": 62003200,
+              "duration": 94884800,
               "status": "passed"
             },
             "before": [
@@ -179,11 +180,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-05-28T04:41:49.184Z",
+        "start_timestamp": "2020-05-28T05:02:51.742Z",
         "before": [
           {
             "result": {
-              "duration": 3116396400,
+              "duration": 3136507500,
               "status": "passed"
             },
             "match": {
@@ -198,7 +199,7 @@
         "after": [
           {
             "result": {
-              "duration": 643768500,
+              "duration": 651961600,
               "status": "passed"
             },
             "match": {
@@ -211,7 +212,7 @@
         "steps": [
           {
             "result": {
-              "duration": 862242900,
+              "duration": 841071600,
               "status": "passed"
             },
             "before": [
@@ -243,7 +244,7 @@
           },
           {
             "result": {
-              "duration": 11807078200,
+              "duration": 228575500,
               "status": "passed"
             },
             "before": [
@@ -289,12 +290,13 @@
           },
           {
             "result": {
-              "duration": 395237300,
+              "duration": 260741200,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 133400,
                   "status": "passed"
                 },
                 "match": {
@@ -321,12 +323,12 @@
           },
           {
             "result": {
-              "duration": 998500,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 1021300,
                   "status": "passed"
                 },
                 "match": {

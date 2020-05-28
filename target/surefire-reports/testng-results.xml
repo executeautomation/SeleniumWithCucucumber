@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-05-28T16:25:38 NZST" name="Surefire suite" finished-at="2020-05-28T16:25:39 NZST" duration-ms="895">
+  <suite started-at="2020-05-28T17:02:42 NZST" name="Suite" finished-at="2020-05-28T17:02:56 NZST" duration-ms="14176">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1afd44cb]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@247bddad]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2020-05-28T16:25:38 NZST" name="Surefire test" finished-at="2020-05-28T16:25:39 NZST" duration-ms="895">
+    <test started-at="2020-05-28T17:02:42 NZST" name="Complete test run" finished-at="2020-05-28T17:02:56 NZST" duration-ms="14176">
       <class name="runner.TestRunner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runner.TestRunner@1afd44cb]" started-at="2020-05-28T16:25:38 NZST" name="setUpClass" finished-at="2020-05-28T16:25:38 NZST" duration-ms="457" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runner.TestRunner@247bddad]" started-at="2020-05-28T17:02:43 NZST" name="setUpClass" finished-at="2020-05-28T17:02:43 NZST" duration-ms="270" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1afd44cb]" started-at="2020-05-28T16:25:39 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-05-28T16:25:39 NZST" duration-ms="234" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@247bddad]" started-at="2020-05-28T17:02:43 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-05-28T17:02:51 NZST" duration-ms="8452" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,17 +27,10 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at steps.Hook.InitializeTest(Hook.java:34)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1afd44cb]" started-at="2020-05-28T16:25:39 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-05-28T16:25:39 NZST" duration-ms="18" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@247bddad]" started-at="2020-05-28T17:02:51 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-05-28T17:02:56 NZST" duration-ms="5125" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -50,21 +43,14 @@ at steps.Hook.InitializeTest(Hook.java:34)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at steps.Hook.InitializeTest(Hook.java:34)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@1afd44cb]" started-at="2020-05-28T16:25:39 NZST" name="tearDownClass" finished-at="2020-05-28T16:25:39 NZST" duration-ms="140" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@247bddad]" started-at="2020-05-28T17:02:56 NZST" name="tearDownClass" finished-at="2020-05-28T17:02:56 NZST" duration-ms="118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- runner.TestRunner -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+    </test> <!-- Complete test run -->
+  </suite> <!-- Suite -->
 </testng-results>
