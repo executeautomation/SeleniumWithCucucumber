@@ -3,14 +3,13 @@ package steps;
 import Base.BaseUtil;
 
 
-import cucumber.api.PickleStepTestStep;
-import cucumber.api.TestCase;
-import gherkin.pickles.PickleStep;
-import io.cucumber.core.api.Scenario;
-import io.cucumber.java.After;
-import io.cucumber.java.AfterStep;
-import io.cucumber.java.Before;
-import io.cucumber.java.BeforeStep;
+//import cucumber.api.PickleStepTestStep;
+//import cucumber.api.TestCase;
+//import gherkin.pickles.PickleStep;
+//import io.cucumber.core.api.Scenario;
+
+
+import io.cucumber.java.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 
@@ -32,7 +31,7 @@ public class Hook extends BaseUtil{
     public void InitializeTest(Scenario scenario) {
 
 
-        scenarioDef = base.features.createNode(scenario.getName());
+        base.scenarioDef = base.features.createNode(scenario.getName());
 
         System.out.println("Opening the browser : Firefox");
 
@@ -44,7 +43,7 @@ public class Hook extends BaseUtil{
 //        System.setProperty("webdriver.chrome.driver", "/Users/karthikkk/ChromeDriver/chromedriver");
 //        base.Driver = new ChromeDriver();
 
-        System.setProperty("webdriver.chrome.driver", "/Users/karthikkk/ChromeDriver/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "C:/driver/Web/chromedriver.exe");
         base.Driver = new ChromeDriver();
     }
 

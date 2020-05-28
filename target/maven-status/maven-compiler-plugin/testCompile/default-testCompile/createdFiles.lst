@@ -1,6 +1,8 @@
 Base\BaseUtil.class
-steps\Hook.class
 pages\LoginPage.class
 steps\LoginStep.class
-runner\TestRunner.class
 steps\LoginStep$User.class
+runner\NGTestListener.class
+steps\Hook.class
+runner\TestRunner.class
+Base\ExtentReportUtil.class

@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
-  <test name="Surefire test">
-    <classes>
-      <class name="runner.TestRunner"/>
-    </classes>
-  </test> <!-- Surefire test -->
-  <test name="Surefire test(failed)">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
     <classes>
       <class name="runner.TestRunner">
         <methods>
-          <include name="setUpClass"/>
-          <include name="feature" invocation-numbers="0"/>
+          <include name="runScenario" invocation-numbers="0 1"/>
           <include name="tearDownClass"/>
+          <include name="setUpClass"/>
         </methods>
       </class> <!-- runner.TestRunner -->
     </classes>

@@ -1,12 +1,11 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('Test') {
       steps {
-        echo 'Made it'
+        echo 'Running from Jenkins file'
         bat(script: 'mvn verify', label: 'maven')
       }
     }
-
   }
 }
