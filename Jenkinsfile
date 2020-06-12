@@ -6,7 +6,7 @@ pipeline {
         stage('Test') {
           steps {
             echo 'Running from Jenkins file'
-            sh(script: 'mvn verify', label: 'maven')
+            sh(script: 'mvn build', label: 'maven')
           }
         }
 
