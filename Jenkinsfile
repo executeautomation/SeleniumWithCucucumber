@@ -3,10 +3,10 @@ pipeline {
   stages {
     stage('Test') {
       parallel {
-        stage('Test') {
+        stage('Maven') {
           steps {
             echo 'Running from Jenkins file'
-            sh(script: 'mvn build', label: 'maven')
+            sh(script: 'mvn compile', label: 'maven')
           }
         }
 
