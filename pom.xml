@@ -12,9 +12,11 @@
         <plugins>
 
             <plugin>
+                <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+                <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
+                <version>3.8.2</version>
                 <configuration>
                     <source>10</source>
                     <target>10</target>
