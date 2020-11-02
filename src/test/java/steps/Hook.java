@@ -28,7 +28,7 @@ public class Hook extends BaseUtil{
     }
 
     @Before
-    public void InitializeTest(Scenario scenario) {
+    public void InitializeTest(Scenario scenario) { 
 
 
         base.scenarioDef = base.features.createNode(scenario.getName());
