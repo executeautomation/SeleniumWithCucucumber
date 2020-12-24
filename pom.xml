@@ -72,6 +72,12 @@
             <artifactId>cucumber-testng</artifactId>
             <version>5.7.0</version>
         </dependency>
+             
+     <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.5.1</version>
+                          </dependency>
 
         <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
         <dependency>
