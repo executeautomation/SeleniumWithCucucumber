@@ -30,8 +30,6 @@
 						<include>runner.TestRunner</include>
 					</includes>
 				</configuration>
-
-			</plugin>
             </plugin>
             <plugin>
                 <groupId>net.masterthought</groupId>
