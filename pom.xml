@@ -7,29 +7,29 @@
     <groupId>groupId</groupId>
     <artifactId>CucumberBasics</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <webdrivermanager.version>4.3.1</webdrivermanager.version>
+    </properties>
     <build>
         <plugins>
-
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.7.0</version>
                 <configuration>
-			<source>1.8</source>
-			<target>1.8</target>
-			<verbose>true</verbose>
+                    <source>10</source>
+                    <target>10</target>
                 </configuration>
             </plugin>
             <plugin>
                <groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.22.2</version>
-
 				<configuration>
-					<includes>
-						<include>runner.TestRunner</include>
-					</includes>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>src/test/java/testng.xml</suiteXmlFile>
+                    </suiteXmlFiles>
 				</configuration>
             </plugin>
             <plugin>
@@ -62,7 +62,7 @@
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java</artifactId>
-            <version>5.7.0</version>
+            <version>6.9.1</version>
         </dependency>
 
 
@@ -70,53 +70,63 @@
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-testng</artifactId>
-            <version>5.7.0</version>
+            <version>6.9.1</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-junit</artifactId>
-            <version>5.7.0</version>
+            <version>6.9.1</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-picocontainer -->
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-picocontainer</artifactId>
-            <version>5.7.0</version>
+            <version>6.9.1</version>
             <scope>test</scope>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.picocontainer/picocontainer -->
+        <dependency>
+            <groupId>org.picocontainer</groupId>
+            <artifactId>picocontainer</artifactId>
+            <version>2.15</version>
+        </dependency>
+
+
 
         <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-core</artifactId>
-            <version>5.7.0</version>
+            <version>6.9.1</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>4.0.0-alpha-3</version>
+            <version>4.0.0-beta-2</version>
         </dependency>
+
+
 
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver -->
         <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-chrome-driver</artifactId>
-            <version>4.0.0-alpha-3</version>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>${webdrivermanager.version}</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
         <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
         <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
         <dependency>
             <groupId>com.aventstack</groupId>
             <artifactId>extentreports</artifactId>
-            <version>4.1.5</version>
+            <version>5.0.7</version>
         </dependency>
-
-
-
     </dependencies>
 </project>

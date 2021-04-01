@@ -1,7 +1,7 @@
-C:\Users\karth\Documents\GitHub\SeleniumWithCucucumber\src\test\java\Base\BaseUtil.java
-C:\Users\karth\Documents\GitHub\SeleniumWithCucucumber\src\test\java\runner\NGTestListener.java
-C:\Users\karth\Documents\GitHub\SeleniumWithCucucumber\src\test\java\steps\Hook.java
-C:\Users\karth\Documents\GitHub\SeleniumWithCucucumber\src\test\java\runner\TestRunner.java
-C:\Users\karth\Documents\GitHub\SeleniumWithCucucumber\src\test\java\pages\LoginPage.java
-C:\Users\karth\Documents\GitHub\SeleniumWithCucucumber\src\test\java\steps\LoginStep.java
-C:\Users\karth\Documents\GitHub\SeleniumWithCucucumber\src\test\java\Base\ExtentReportUtil.java
+/Users/karthikkk/seleniumbasic/SeleniumWithCucucumber/src/test/java/Base/ExtentReportUtil.java
+/Users/karthikkk/seleniumbasic/SeleniumWithCucucumber/src/test/java/Base/BaseUtil.java
+/Users/karthikkk/seleniumbasic/SeleniumWithCucucumber/src/test/java/steps/LoginStep.java
+/Users/karthikkk/seleniumbasic/SeleniumWithCucucumber/src/test/java/pages/LoginPage.java
+/Users/karthikkk/seleniumbasic/SeleniumWithCucucumber/src/test/java/runner/NGTestListener.java
+/Users/karthikkk/seleniumbasic/SeleniumWithCucucumber/src/test/java/runner/TestRunner.java
+/Users/karthikkk/seleniumbasic/SeleniumWithCucucumber/src/test/java/steps/Hook.java

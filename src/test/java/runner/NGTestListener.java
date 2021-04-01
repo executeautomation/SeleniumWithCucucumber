@@ -57,7 +57,7 @@ public class NGTestListener implements ITestListener {
         extentReportUtil.ExtentReport();
 
         //ToDo: Feature - Hard coding the feature name
-        features = extentReportUtil.extent.createTest(Feature.class, "Login Feature");
+        features = extentReportUtil.extent.createTest(Feature.class, "LoginFeature");
 
     }
 
