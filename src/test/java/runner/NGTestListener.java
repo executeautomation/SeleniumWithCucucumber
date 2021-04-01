@@ -33,11 +33,11 @@ public class NGTestListener implements ITestListener {
     public void onTestFailure(ITestResult iTestResult) {
         System.out.println("On test failure");
 
-        try{
-            extentReportUtil.ExtentReportScreenshot();
-        }catch (IOException e){
-            e.printStackTrace();
-        }
+//        try{
+//            extentReportUtil.ExtentReportScreenshot();
+//        }catch (IOException e){
+//            e.printStackTrace();
+//        }
     }
 
     @Override

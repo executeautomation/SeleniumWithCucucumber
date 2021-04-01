@@ -2,19 +2,19 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-04-02T12:38:30 NZDT" name="Suite" finished-at="2021-04-02T12:38:45 NZDT" duration-ms="15166">
+  <suite started-at="2021-04-02T12:48:53 NZDT" name="Suite" finished-at="2021-04-02T12:48:59 NZDT" duration-ms="6426">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@3561c410]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7c214cc0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2021-04-02T12:38:30 NZDT" name="Complete test run" finished-at="2021-04-02T12:38:45 NZDT" duration-ms="15166">
+    <test started-at="2021-04-02T12:48:53 NZDT" name="Complete test run" finished-at="2021-04-02T12:48:59 NZDT" duration-ms="6426">
       <class name="runner.TestRunner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runner.TestRunner@3561c410]" started-at="2021-04-02T12:38:30 NZDT" name="setUpClass" finished-at="2021-04-02T12:38:30 NZDT" duration-ms="110" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runner.TestRunner@7c214cc0]" started-at="2021-04-02T12:48:53 NZDT" name="setUpClass" finished-at="2021-04-02T12:48:53 NZDT" duration-ms="93" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@3561c410]" started-at="2021-04-02T12:38:30 NZDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-02T12:38:40 NZDT" duration-ms="10114" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7c214cc0]" started-at="2021-04-02T12:48:53 NZDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-02T12:48:57 NZDT" duration-ms="3560" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@3561c410]" started-at="2021-04-02T12:38:40 NZDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-02T12:38:45 NZDT" duration-ms="4791" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7c214cc0]" started-at="2021-04-02T12:48:57 NZDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-02T12:48:59 NZDT" duration-ms="2627" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -46,7 +46,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@3561c410]" started-at="2021-04-02T12:38:45 NZDT" name="tearDownClass" finished-at="2021-04-02T12:38:45 NZDT" duration-ms="30" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@7c214cc0]" started-at="2021-04-02T12:48:59 NZDT" name="tearDownClass" finished-at="2021-04-02T12:48:59 NZDT" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
