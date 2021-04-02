@@ -120,9 +120,14 @@
             <version>${webdrivermanager.version}</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
-        <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
-        <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+        <!-- https://mvnrepository.com/artifact/net.masterthought/cucumber-reporting -->
+        <dependency>
+            <groupId>net.masterthought</groupId>
+            <artifactId>cucumber-reporting</artifactId>
+            <version>5.5.2</version>
+        </dependency>
+
+
         <dependency>
             <groupId>com.aventstack</groupId>
             <artifactId>extentreports</artifactId>
