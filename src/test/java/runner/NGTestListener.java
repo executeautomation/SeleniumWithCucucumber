@@ -64,6 +64,6 @@ public class NGTestListener implements ITestListener {
     @Override
     public void onFinish(ITestContext iTestContext) {
         System.out.println("On finish");
-        extentReportUtil.FlushReport();
+        //extentReportUtil.FlushReport();
     }
 }
