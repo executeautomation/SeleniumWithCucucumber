@@ -1,6 +1,8 @@
 # SeleniumWithCucumber
 This is an sample project to demonstrate how to work with Selenium and cucumber for Java
 
+[![Java CI with Maven](https://github.com/executeautomation/SeleniumWithCucucumber/actions/workflows/maven_new.yml/badge.svg?branch=master)](https://github.com/executeautomation/SeleniumWithCucucumber/actions/workflows/maven_new.yml)
+
 ~~~~
 # Important
 Make sure you have JAVA 10 or above installed to run this test
