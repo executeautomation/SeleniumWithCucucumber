@@ -1,8 +1,8 @@
 runner/TestRunner.class
 runner/NGTestListener.class
-Base/BaseUtil.class
 steps/Hook.class
+Base/BaseUtil.class
 steps/LoginStep$User.class
 Base/ExtentReportUtil.class
-steps/LoginStep.class
 pages/LoginPage.class
+steps/LoginStep.class
