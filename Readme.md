@@ -7,7 +7,7 @@ Make sure you have JAVA 10 or above installed to run this test
 ~~~~
 
 # Upgraded to Cucumber 4
-The code is now upgraded to Cucumber 4 with new
+The code is now upgraded to Cucumber 4 with new one
 
 # Upgraded to Cucumber-JVM 5
 The code is now upgraded to Cucumber 4 with new
