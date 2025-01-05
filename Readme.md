@@ -13,7 +13,7 @@ Access Cucumber Report from GitHub pages running via GitHub Actions from here ht
 
 
 # Upgraded to Cucumber 4
-The code is now upgraded to Cucumber 4 with new
+The code is now upgraded to Cucumber 4 with new one
 
 # Upgraded to Cucumber-JVM 5
 The code is now upgraded to Cucumber 4 with new
