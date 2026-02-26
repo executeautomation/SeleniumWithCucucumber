@@ -185,3 +185,12 @@
 //        System.out.println(elements.count());
 //    }
 //}
+
+//        var elements = lstElements
+//                .stream()
+//                .map(x -> x.getAttribute("input"));
+//
+//        //should be 7
+//        System.out.println(elements.count());
+//    }
+//}
