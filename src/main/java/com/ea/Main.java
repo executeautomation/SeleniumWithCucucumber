@@ -164,6 +164,7 @@ public class Main {
         var checkbox = chromeDriver.findElement(withTagName("input").below(By.name("Male")).toLeftOf(By.name("Hindi")));
         checkbox.click();
         System.out.println(checkbox.getAttribute("name"));
+        System.out.println(checkbox.getAttribute("type"));
 
 
         var txtIntial = chromeDriver.findElement(withTagName("input")
